@@ -12,4 +12,4 @@ Challenge #1 – Develop a JMeter Integration Test
             iii. “Work With Us”
         d. Verify that the response header “Date” is within 5 minutes of the current date (current date of computer where test is running). 
     4. Commit the JMeter project to the main branch of your GitHub repository and push it to GitHub.
-    5. Share a link to your GitHub repository containing the JMeter project.
+    5. Share a link to your GitHub repository containing the JMeter project
