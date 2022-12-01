@@ -3,8 +3,9 @@
 # this script runs the jmeter script, the output of which is then "parsed" via grep to contain 3 elements:
 # strings_exist=TRUE
 # gap_lessthan5=TRUE
-# and an Error count of zero(0)
-# if all 3 conditions are met, this script returns "passed", otherwise "failed"
+# and an Error count of zero(0) (an indication of success of the entire test which requires an HTTP Response code 200)
+
+# for each condition, this script returns "passed", otherwise "failed"
 
 jmeter -f -n -t Acceleron1.jmx > acceleron.out
 if [ `cat acceleron.out | grep -c "Err:     0"` -eq '1' ]

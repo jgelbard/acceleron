@@ -19,15 +19,15 @@ To run the test from the command line, type:
 sh test1.sh or simply ./test1.sh
 
 The output should be either "passed" or "failed"
-
 Note: "passed" means that all 3 tests have passed!
 
 you can also use a similar script, included:
 sh test2.sh or simply ./test2.sh
 
 The output should be either "passed" or "failed"
-
 Note: "passed" means that all 3 tests have passed!
+
+the 3rd test shell script, test3.sh, individually indicates the test statuses. it runs Acceleron1.jmx.
 
 ALSO PLEASE NOTE: The jmeter scripts run only once, with a single thread!
 
