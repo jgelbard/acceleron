@@ -13,3 +13,15 @@ Challenge #1 – Develop a JMeter Integration Test
         d. Verify that the response header “Date” is within 5 minutes of the current date (current date of computer where test is running). 
     4. Commit the JMeter project to the main branch of your GitHub repository and push it to GitHub.
     5. Share a link to your GitHub repository containing the JMeter project
+
+
+To run the test from the command line, type:
+sh test1.sh or simply ./test1.sh
+
+The output should be either "passed" or "failed"
+
+you can also use a similar script, included:
+sh test2.sh or simply ./test2.sh
+
+The output should be either "passed" or "failed"
+
