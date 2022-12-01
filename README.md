@@ -25,3 +25,5 @@ sh test2.sh or simply ./test2.sh
 
 The output should be either "passed" or "failed"
 
+PLEASE NOTE: The jmeter scripts run only once, with a single thread!
+
